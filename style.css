@@ -1,0 +1,111 @@
+body {
+    background-image: url(https://png.pngtree.com/background/20220714/original/pngtree-purple-chinese-fengxianxia-game-background-picture-image_1618383.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6; 
+}
+
+.quiz-container {
+    max-width: 600px; 
+    margin: 60px auto; 
+    padding: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    
+
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600; 
+    text-align: center;
+    
+}
+
+#quiz {
+    margin: 40px auto;
+    text-align: center;
+    width: 15%;
+    font-size: 36px;
+    padding: 10px; 
+    color: black; 
+ 
+}
+
+.question-container {
+    margin-bottom: 40px;
+    
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 25px; 
+    background-color: #d232e7; 
+    color: white;
+    font-size: 18px; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s; 
+    
+}
+
+button:hover {
+    background-color: #e100ff; 
+    transform: translateY(-2px); 
+}
+
+#options {
+    list-style: none;
+    font-size: 18px;
+    padding-left: 0;
+    
+}
+
+#options li button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    text-align: left;
+    background-color: #d232e7; 
+    border-radius: 8px; 
+    margin-top: 10px; 
+    text-align: center;
+}
+
+#retake {
+    background-color: #5a5555; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s; 
+}
+
+#retake:hover {
+    background-color: #888;
+    transform: translateY(-2px); 
+}
+
+#score {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+ol li {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 8px; 
+}
